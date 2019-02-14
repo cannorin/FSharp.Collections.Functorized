@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Functorized Set/Map</Description>
+    <Authors>cannorin</Authors>
+    <Product />
+    <Copyright>(c) cannorin 2019</Copyright>
+    <PackageProjectUrl>https://github.com/cannorin/FSharp.Collections.Functorized</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageTags>fsharp collections map set functorized</PackageTags>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard1.6;net46;net45</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Version.fs" />
+    <Compile Include="TypeParameter.fs" />
+    <Compile Include="Comparer.fs" />
+    <Compile Include="Wrapper.fs" />
+    <Compile Include="Tree.fs" />
+    <Compile Include="Set.fs" />
+    <Compile Include="Map.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.2.3" />
+  </ItemGroup>
+</Project>
