@@ -19,6 +19,7 @@ PM> Install-Package FSharp.Collections.Functorized
 ## Built-In Instantiations
 
 * [`DefaultSet`](https://github.com/cannorin/FSharp.Collections.Functorized/blob/master/src/Set.fs#L331)
+  * Uses the default [`compare: 'T -> 'T -> int when 'T: comparison` ](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/operators.compare%5B%27t%5D-function-%5Bfsharp%5D) operator.
 * [`DefaultMap`](https://github.com/cannorin/FSharp.Collections.Functorized/blob/master/src/Map.fs#L356)
   * Uses the default [`compare: 'T -> 'T -> int when 'T: comparison` ](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/operators.compare%5B%27t%5D-function-%5Bfsharp%5D) operator.
 
